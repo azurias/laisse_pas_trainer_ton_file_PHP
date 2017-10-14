@@ -19,7 +19,7 @@ if (isset($_FILES['myfile'])) {
     $sFileName = $_FILES['myfile']['name'];
     $sFileType = $_FILES['myfile']['type'];
     $sFileSize = bytesToSize1024($_FILES['myfile']['size'], 1);
-var_dump($_FILES['myfile']);
+
 
 
 //    if (count($_FILES['myfile']['name']) > 0) {
